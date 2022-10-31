@@ -1,0 +1,18 @@
+.sidebardesktop {
+  width: 400px;
+}
+
+.sidebar {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    display: inline-block;
+    width: 100%;
+    transition: height 0.3s ease;
+  }
+  .sidebardesktop {
+    display: none;
+  }
+}
